@@ -1,0 +1,39 @@
+body {
+    background-color: #222629;
+    color: whitesmoke;
+}
+
+.navigation {
+    background-color: #474B4F;
+}
+
+.header {
+    background-image: url("../img/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    color: #86C232;
+    font-size: 100px;
+}
+
+.footer {
+    background-color: #474B4F;
+}
+
+.game {
+    background-color: #474B4F;
+}
+
+.games__header {
+    color: #61892F;
+}
+
+.game__header {
+    color: #86C232;
+}
