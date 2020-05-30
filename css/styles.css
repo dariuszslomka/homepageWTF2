@@ -16,14 +16,22 @@ body {
     background-color: #474B4F;
     position: fixed;
     width: 100%;
-    height: 36px;
+    height: 52px;
 }
 
 .navigation__list {
-    margin: 0;
+    height: 52px;
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
 } 
+
+.navigation__item {
+    list-style: none;
+    margin: 0 16px;
+}
 
 .navigation__link {
     text-decoration: none;
@@ -33,6 +41,7 @@ body {
 .site, .footer {
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 52px;
 }
 
 .header {
