@@ -12,6 +12,14 @@ body {
     margin: 0;
 }
 
+.hamburger {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    z-index: 1;
+    color: #61892F;
+}
+
 .navigation {
     background-color: #474B4F;
     position: fixed;
@@ -25,7 +33,6 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-
 } 
 
 .navigation__item {
@@ -73,17 +80,43 @@ body {
 
 .games__container { 
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .game {
     background-color: #474B4F;
-    width: 400px;
+    width: 250px;
+    margin-bottom: 40px;
 }
 
 .games__header {
     color: #61892F;
 }
 
+.game__foto {
+    width: 50px;
+}
+
 .game__header {
     color: #86C232;
+}
+
+@media screen and (min-width: 375px)
+{
+    .hamburger {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .games__container { 
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .game {
+        margin-right: 40px;
+    }
 }
